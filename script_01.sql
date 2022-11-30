@@ -45,6 +45,7 @@ CREATE TABLE IF NOT EXISTS tb_contatos(
 	id INTEGER PRIMARY KEY AUTOINCREMENT,
 	nome TEXT NOT NULL,
 	tipo_logradouro TEXT NOT NULL,
+	logradouro TEXT NOT NULL,
 	numero TEXT NOT NULL,
 	bairro TEXT NOT NULL,
 	cidade TEXT NOT NULL,
@@ -66,3 +67,4 @@ SELECT * FROM tb_contatos tc ;
 SELECT * FROM tb_telefones tt ;
 
 -- Para converter os dados, rode o arquivo script_01.py
+
